@@ -15,5 +15,5 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
   s.add_development_dependency "rake"
-  s.add_runtime_dependency "fluentd"
+  s.add_runtime_dependency "fluentd", [">= 0.10.58", "< 0.14"]
 end
